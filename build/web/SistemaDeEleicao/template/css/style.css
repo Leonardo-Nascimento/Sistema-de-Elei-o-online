@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+.top{
+	background-color: #1874CD;
+	height: 215px;
+	min-height: 210px;
+}
+.header-top{
+	min-height: 70px;
+	margin-top: -10px;
+}
+
+.img-header{
+	margin-top: -15px;
+	position: absolute;
+}
+
+.titulo-header{
+    margin: 85px 0 0 85px;
+}
+
+.formulario{
+	float: right;
+	margin-top: 7px;
+	margin-top: -20px;
+	margin-right: -5px;
+}
+
+.btnSair {
+	float: right;
+	    margin-right: -35px;
+	margin-top: -118px;
+}
+
+.usuarioLogin{
+
+	position: absolute;
+    margin-top: -120px;
+    margin-left: 810px;
+    font-size: 35px;
+    color: #fff;
+    font-size: 25px;	
+}
+
+.ErroLoginSenha img{
+	position: absolute;
+}
+
+.ErroLoginSenha a{
+	float: right;    
+    margin-top: 270px;
+    margin-right: 825px;
+    position: relative;
+
+}
+
+.acessoErro{
+	width: 40%;
+    position: absolute;
+    margin-left: 395px;
+    margin-top: -360px;
+}
+
+.acompanhamento {
+	width: 35%!important;
+}
+
+/************IMAGEM DE FUNDO*************************/
+
+.img-body{
+	background-image: url('../img/voto1_final.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	filter: brightness(50%);
+	/*filter: blur(7px);*/
+	min-width: 100%;
+	min-height: 400px;
+}
+/*****MENU DE NAVEGAÇAÕ*****/
+.nav-menu{
+	margin-top: -390px !important;
+	margin-left: 25px  !important;
+	position: absolute !important;
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.nav-menu-ul{
+	display: grid !important;
+}
+
+.item-menu{
+	list-style-type: none !important;
+	float: none !important;
+}
+
+.item-menu a{
+    display: block !important;
+    width: 150px !important;
+    padding: 5px 10px !important;
+    margin-bottom: 8px !important;
+    color: #1874cd !important;
+    background: #222 !important;
+    border: 1px solid white !important;
+    border-radius: 16px !important;
+}
+
+.item-menu a:hover {
+	color: #ffff66 !important;
+    text-decoration: none !important;
+}
+/*FIELDSET*/
+.votacao {
+    display: block;
+    margin-top: -350px;
+    margin-left: 400px;
+    padding-bottom: 0.625em;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+    width: 300px;
+    border: 2px solid #1874cd;
+    border-radius: 20px;
+    position: absolute;
+    background-color: red;
+    text-align: center;
+}
+fieldset legend{
+	border-top: 2px solid #1874cd;
+	border-bottom: none;
+	background-color: #fff;
+}
+
+.formulario-fieldset{
+	margin-top: -30px;
+}
+
+.formulario-fieldset input{
+	margin: 5px 0;
+	width: 210px;
+}
+
+.formulario-fieldset button{
+	margin-left: 35px;
+	margin-top: 5px;
+	color: black;
+    background-color:#16E878;
+    border-color:#16E878;
+}
+
+/******FORM DE VOTAÇÃO*******/
+
+.voto{
+	width: 500px;
+	margin-left: 400px !important;
+	padding-bottom: 0.625em;
+	position: absolute;	
+}
+
+.voto form{
+	margin-top:-350px;
+}
+
+.btn-primary{
+	color:black!important;
+	background-color:#16E878 !important;
+	border-color:#16E878!important;
+	width:110px !important;
+}
+
+.voto button{
+	
+	background-color:#f17171 !important;
+	border-color:#f17171!important;
+}
+
+
+
+
+/****ADICIONAR CANDIDATO*****/
+.addcand {
+    display: block;
+    margin-top: -350px;
+    margin-left: 400px;
+    padding-bottom: 0.625em;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+    width: 300px;
+    border: 2px solid #1874cd;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+/****ADICIONAR USUARIO****/
+.addUsuario{
+	width: 320px;
+	margin-left: 400px !important;
+	padding-bottom: 0.625em;
+	position: absolute;	
+	text-align: center;
+}
+
+.addUsuario h1{
+	color: #fff;
+	font-size: 180%;
+    margin-bottom: 20px;
+}
+
+.addUsuario form{
+	margin-top:-350px;
+}
+.addUsuario label{
+	color: #fff;
+}
+.addUsuario button{
+	background-color:#f17171 !important;
+	border-color:#f17171!important;	
+}
+
+.addUsuario > .alert-danger{
+	text-align:center!important;
+	width:400px !important;
+}
+
+/*RODAPE*/
+.footer{
+	background-color: #1874CD;
+	text-align: center;
+	height: 60px;
+	margin-top: 0;
+	line-height: 60px;
+}
